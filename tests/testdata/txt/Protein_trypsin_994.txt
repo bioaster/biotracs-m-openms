@@ -1,0 +1,5 @@
+#slice	RT_begin	RT_end	number_of_features	tic	int_mean	int_stddev	int_min	int_max	int_median	int_lowerq	int_upperq	mz_mean	mz_stddev	mz_min	mz_max	mz_median	mz_lowerq	mz_upperq	width_mean	width_stddev	width_min	width_max	width_median	width_lowerq	width_upperq	qual_mean	qual_stddev	qual_min	qual_max	qual_median	qual_lowerq	qual_upperq	rt_qual_mean	rt_qual_stddev	rt_qual_min	rt_qual_max	rt_qual_median	rt_qual_lowerq	rt_qual_upperq	mz_qual_mean	mz_qual_stddev	mz_qual_min	mz_qual_max	mz_qual_median	mz_qual_lowerq	mz_qual_upperq
+0	0	791.785	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+1	791.785	1583.57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+2	1583.57	2375.35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+3	2375.35	3167.14	524	7.35217e+07	140309	243541	3129.52	2.09498e+06	49535.9	20051.1	142017	457.11	131.594	201.131	766.593	461.78	344.227	548.343	24.9692	22.5058	4.26454	277.714	19.9853	14.3618	26.7275	0.794143	0.0909476	0.513121	0.96591	0.813625	0.737345	0.864758	0	0	0	0	0	0	0	0	0	0	0	0	0	0	

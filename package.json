@@ -1,0 +1,7 @@
+{
+	"name"			: "biotracs-m-openms",
+    "description"    : "Biotracs application (wrapper of OpenMS software) for mass-spectrometry data processing",
+	"dependencies"	: [
+		"biotracs-m-spectra"
+		]
+}

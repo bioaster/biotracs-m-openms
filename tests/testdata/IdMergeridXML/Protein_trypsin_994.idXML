@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://open-ms.sourceforge.net/XSL/IdXML.xsl" ?>
+<IdXML version="1.4" xsi:noNamespaceSchemaLocation="http://open-ms.sourceforge.net/SCHEMAS/IdXML_1_4.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SearchParameters id="SP_0" db="SwissProt" db_version="SwissProt_2014_07.fasta" taxonomy="All entries" mass_type="monoisotopic" charges="" enzyme="trypsin" missed_cleavages="1" precursor_peak_tolerance="10" precursor_peak_tolerance_ppm="true" peak_mass_tolerance="0.5" peak_mass_tolerance_ppm="false" >
+	</SearchParameters>
+	<SearchParameters id="SP_1" db="C:\Users\jabighanem\Data\Tests\Workflow_Proteo_test\uniprot_sprot.fasta" db_version="" taxonomy="" mass_type="monoisotopic" charges="+2-+2" enzyme="trypsin" missed_cleavages="1" precursor_peak_tolerance="10" precursor_peak_tolerance_ppm="true" peak_mass_tolerance="0.5" peak_mass_tolerance_ppm="false" >
+	</SearchParameters>
+	<IdentificationRun date="2017-03-10T10:23:51" search_engine="Mascot" search_engine_version="2.5.1" search_parameters_ref="SP_0" >
+		<ProteinIdentification score_type="Mascot" higher_score_better="true" significance_threshold="0" >
+			<UserParam type="int" name="SearchNumber" value="1763"/>
+		</ProteinIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="304.8052" RT="641.728" >
+			<PeptideHit score="0.99999999999965" sequence="MDGYDRR" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="6.5"/>
+				<UserParam type="float" name="Mascot_score" value="5.62"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="310.1288" RT="644.069" >
+			<PeptideHit score="0.99996045631166" sequence="NDEEYMK" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="0.57"/>
+				<UserParam type="float" name="Mascot_score" value="11.39"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="315.4683" RT="675.57" >
+			<PeptideHit score="0.998835718727709" sequence="EYDESSSK" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="0.31"/>
+				<UserParam type="float" name="Mascot_score" value="12.97"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="349.1714" RT="622.962" >
+			<PeptideHit score="0.999999999991731" sequence="TVGSSSNEGLMSPK" charge="4" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="23"/>
+				<UserParam type="float" name="EValue" value="4.6"/>
+				<UserParam type="float" name="Mascot_score" value="16.45"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="349.1721" RT="634.705" >
+			<PeptideHit score="1" sequence="FDASYLAMK" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="23"/>
+				<UserParam type="float" name="EValue" value="13"/>
+				<UserParam type="float" name="Mascot_score" value="11.85"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="352.6914" RT="640.376" >
+			<PeptideHit score="0.999999999997242" sequence="VAANSSR" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="15"/>
+				<UserParam type="float" name="EValue" value="5.2"/>
+				<UserParam type="float" name="Mascot_score" value="8.44"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="352.6955" RT="611.872" >
+			<PeptideHit score="0.999999999991731" sequence="VTELLSFVGLSDK" charge="4" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="21"/>
+				<UserParam type="float" name="EValue" value="4.6"/>
+				<UserParam type="float" name="Mascot_score" value="14.67"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="352.6956" RT="613.228" >
+			<PeptideHit score="1" sequence="AVAYVYGLIADPR" charge="4" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="21"/>
+				<UserParam type="float" name="EValue" value="16"/>
+				<UserParam type="float" name="Mascot_score" value="9.59"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="352.6961" RT="615.932" >
+			<PeptideHit score="0.999999992582579" sequence="AGARSSR" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="2"/>
+				<UserParam type="float" name="Mascot_score" value="9.15"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="371.6695" RT="635.693" >
+			<PeptideHit score="0.999842979388948" sequence="SGGYSSGK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="0"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="0.45"/>
+				<UserParam type="float" name="Mascot_score" value="8.68"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="18" MZ="427.2095" RT="693.538" >
+			<PeptideHit score="0.99998530023542" sequence="NTTINMTANGSR" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="18"/>
+				<UserParam type="float" name="identity_threshold" value="24"/>
+				<UserParam type="float" name="EValue" value="0.67"/>
+				<UserParam type="float" name="Mascot_score" value="26.03"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="20" MZ="437.2382" RT="672.227" >
+			<PeptideHit score="0.999999983630724" sequence="ITIKANSGLSDEEIQK" charge="4" >
+				<UserParam type="float" name="homology_threshold" value="20"/>
+				<UserParam type="float" name="identity_threshold" value="26"/>
+				<UserParam type="float" name="EValue" value="1.8"/>
+				<UserParam type="float" name="Mascot_score" value="23.61"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="24" MZ="437.7313" RT="639.388" >
+			<PeptideHit score="0.538978733324344" sequence="IDEQIEK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="0"/>
+				<UserParam type="float" name="identity_threshold" value="24"/>
+				<UserParam type="float" name="EValue" value="0.051"/>
+				<UserParam type="float" name="Mascot_score" value="36.96"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="446.2326" RT="687.999" >
+			<PeptideHit score="0.999999999999998" sequence="KLCPESSK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="26"/>
+				<UserParam type="float" name="EValue" value="11"/>
+				<UserParam type="float" name="Mascot_score" value="16.06"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="446.2348" RT="683.966" >
+			<PeptideHit score="0.999999989080439" sequence="KLCPESSK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="21"/>
+				<UserParam type="float" name="EValue" value="1.9"/>
+				<UserParam type="float" name="Mascot_score" value="18.51"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="446.2349" RT="686.657" >
+			<PeptideHit score="0.999999999999737" sequence="KLCPESSK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="26"/>
+				<UserParam type="float" name="EValue" value="6.7"/>
+				<UserParam type="float" name="Mascot_score" value="18.01"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="446.235" RT="681.618" >
+			<PeptideHit score="0.999999983630724" sequence="KLCPESSK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="22"/>
+				<UserParam type="float" name="EValue" value="1.8"/>
+				<UserParam type="float" name="Mascot_score" value="19.76"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="446.2377" RT="679.267" >
+			<PeptideHit score="0.999999896770524" sequence="KLCPESSK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="21"/>
+				<UserParam type="float" name="EValue" value="1.4"/>
+				<UserParam type="float" name="Mascot_score" value="20.21"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="22" MZ="446.2468" RT="676.924" >
+			<PeptideHit score="0.151201585081007" sequence="ENTLISSK" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="0"/>
+				<UserParam type="float" name="identity_threshold" value="22"/>
+				<UserParam type="float" name="EValue" value="0.011"/>
+				<UserParam type="float" name="Mascot_score" value="41.84"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="304.8058" RT="648.76" >
+			<PeptideHit score="0.999999999589266" sequence="LNFELACC" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="2.9"/>
+				<UserParam type="float" name="Mascot_score" value="8.73"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="18" MZ="459.7486" RT="619.263" >
+			<PeptideHit score="0.999903543782125" sequence="FLDLLENLENNAKFR" charge="4" >
+				<UserParam type="float" name="homology_threshold" value="18"/>
+				<UserParam type="float" name="identity_threshold" value="24"/>
+				<UserParam type="float" name="EValue" value="0.49"/>
+				<UserParam type="float" name="Mascot_score" value="27.15"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="465.2172" RT="669.877" >
+			<PeptideHit score="0.99999999816148" sequence="APETSGPDR" charge="2" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="15"/>
+				<UserParam type="float" name="EValue" value="2.4"/>
+				<UserParam type="float" name="Mascot_score" value="11.98"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="310.4813" RT="667.53" >
+			<PeptideHit score="0.999999999999998" sequence="DESPTAGPR" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="15"/>
+				<UserParam type="float" name="EValue" value="11"/>
+				<UserParam type="float" name="Mascot_score" value="5.31"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="310.4817" RT="677.912" >
+			<PeptideHit score="0.999999999761242" sequence="ELPGCPEGK" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="13"/>
+				<UserParam type="float" name="identity_threshold" value="15"/>
+				<UserParam type="float" name="EValue" value="3.1"/>
+				<UserParam type="float" name="Mascot_score" value="10.93"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="16" MZ="426.8744" RT="699.583" >
+			<PeptideHit score="0.999997032818041" sequence="LVCESDIQESR" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="16"/>
+				<UserParam type="float" name="identity_threshold" value="18"/>
+				<UserParam type="float" name="EValue" value="0.86"/>
+				<UserParam type="float" name="Mascot_score" value="19.26"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="17" MZ="426.8748" RT="697.232" >
+			<PeptideHit score="0.999995946944966" sequence="LVCESDIQESR" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="17"/>
+				<UserParam type="float" name="identity_threshold" value="18"/>
+				<UserParam type="float" name="EValue" value="0.82"/>
+				<UserParam type="float" name="Mascot_score" value="19.33"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="14" MZ="426.8759" RT="694.889" >
+			<PeptideHit score="0.999999997445755" sequence="LSDEDPTFQVK" charge="3" >
+				<UserParam type="float" name="homology_threshold" value="14"/>
+				<UserParam type="float" name="identity_threshold" value="18"/>
+				<UserParam type="float" name="EValue" value="2.3"/>
+				<UserParam type="float" name="Mascot_score" value="14.59"/>
+			</PeptideHit>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="13" MZ="446.235" RT="685.315" >
+			<PeptideHit score="0.99999993730549" sequence="VIGGILDFYIFLGDTPEQVVQQYQELIGRPAMPAYWSLGFQLSRWNYNSLDVVK" charge="14" >
+				<UserParam type="float" name="homology_threshold" value="0"/>
+				<UserParam type="float" name="identity_threshold" value="13"/>
+				<UserParam type="float" name="EValue" value="1.5"/>
+				<UserParam type="float" name="Mascot_score" value="3.92"/>
+			</PeptideHit>
+		</PeptideIdentification>
+	</IdentificationRun>
+	<IdentificationRun date="2017-03-10T11:23:41" search_engine="XTandem" search_engine_version="" search_parameters_ref="SP_1" >
+		<ProteinIdentification score_type="XTandem" higher_score_better="false" significance_threshold="0" >
+			<ProteinHit id="PH_0" accession="sp|A6QI23|PRSA_STAAE Foldase protein PrsA OS=Staphylococcus aureus (strain Newman) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_1" accession="sp|A6U2U4|PRSA_STAA2 Foldase protein PrsA OS=Staphylococcus aureus (strain JH1) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_2" accession="sp|A7X3U8|PRSA_STAA1 Foldase protein PrsA OS=Staphylococcus aureus (strain Mu3 / ATCC 700698) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_3" accession="sp|A8YY10|PRSA_STAAT Foldase protein PrsA OS=Staphylococcus aureus (strain USA300 / TCH1516) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_4" accession="sp|P60747|PRSA_STAAM Foldase protein PrsA OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) GN=prsA PE=1 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_5" accession="sp|P60748|PRSA_STAAN Foldase protein PrsA OS=Staphylococcus aureus (strain N315) GN=prsA PE=1 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_6" accession="sp|P60749|PRSA_STAAW Foldase protein PrsA OS=Staphylococcus aureus (strain MW2) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_7" accession="sp|Q2FFQ5|PRSA_STAA3 Foldase protein PrsA OS=Staphylococcus aureus (strain USA300) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_8" accession="sp|Q2G2S6|PRSA_STAA8 Foldase protein PrsA OS=Staphylococcus aureus (strain NCTC 8325) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_9" accession="sp|Q2YTZ6|PRSA_STAAB Foldase protein PrsA OS=Staphylococcus aureus (strain bovine RF122 / ET3-1) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_10" accession="sp|Q59PD6|MAD1_CANAL_rev Spindle assembly checkpoint component MAD1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) GN=MAD1 PE=3 SV=2" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_11" accession="sp|Q5HET4|PRSA_STAAC Foldase protein PrsA OS=Staphylococcus aureus (strain COL) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_12" accession="sp|Q6G894|PRSA_STAAS Foldase protein PrsA OS=Staphylococcus aureus (strain MSSA476) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_13" accession="sp|Q6GFL5|PRSA_STAAR Foldase protein PrsA OS=Staphylococcus aureus (strain MRSA252) GN=prsA PE=3 SV=1" score="-2" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_14" accession="sp|A2VD00|EIF3A_XENLA Eukaryotic translation initiation factor 3 subunit A OS=Xenopus laevis GN=eif3a PE=2 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_15" accession="sp|A4II09|EIF3A_XENTR Eukaryotic translation initiation factor 3 subunit A OS=Xenopus tropicalis GN=eif3a PE=2 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_16" accession="sp|B8FJ17|PANC_DESAA Pantothenate synthetase OS=Desulfatibacillum alkenivorans (strain AK-01) GN=panC PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_17" accession="sp|B9L7G2|HIS4_NAUPA 1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase OS=Nautilia profundicola (strain ATCC BAA-1463 / DSM 18972 / AmH) GN=hisA PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_18" accession="sp|C4QVR9|IRC19_PICPG_rev Increased recombination centers protein 19 OS=Komagataella pastoris (strain GS115 / ATCC 20864) GN=IRC19 PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_19" accession="sp|O65570|VILI4_ARATH_rev Villin-4 OS=Arabidopsis thaliana GN=VLN4 PE=1 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_20" accession="sp|P23116|EIF3A_MOUSE Eukaryotic translation initiation factor 3 subunit A OS=Mus musculus GN=Eif3a PE=1 SV=5" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_21" accession="sp|P32985|BPS2_ACIAM_rev Protein bps2 OS=Acidianus ambivalens GN=bps2 PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_22" accession="sp|P33749|MSN4_YEAST Zinc finger protein MSN4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=MSN4 PE=1 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_23" accession="sp|Q0SWJ6|LUXS_CLOPS S-ribosylhomocysteine lyase OS=Clostridium perfringens (strain SM101 / Type A) GN=luxS PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_24" accession="sp|Q0TUQ5|LUXS_CLOP1 S-ribosylhomocysteine lyase OS=Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 8237 / Type A) GN=luxS PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_25" accession="sp|Q14152|EIF3A_HUMAN Eukaryotic translation initiation factor 3 subunit A OS=Homo sapiens GN=EIF3A PE=1 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_26" accession="sp|Q1JU68|EIF3A_RAT Eukaryotic translation initiation factor 3 subunit A OS=Rattus norvegicus GN=Eif3a PE=2 SV=2" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_27" accession="sp|Q63ZM9|ZN830_XENLA Zinc finger protein 830 OS=Xenopus laevis GN=znf830 PE=2 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_28" accession="sp|Q68DL7|CR063_HUMAN Uncharacterized protein C18orf63 OS=Homo sapiens GN=C18orf63 PE=2 SV=2" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_29" accession="sp|Q6FY25|SP110_CANGA_rev Spindle pole body component 110 OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) GN=SPC110 PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_30" accession="sp|Q6PCR7|EIF3A_DANRE Eukaryotic translation initiation factor 3 subunit A OS=Danio rerio GN=eif3a PE=2 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_31" accession="sp|Q7TN73|CASD1_MOUSE_rev CAS1 domain-containing protein 1 OS=Mus musculus GN=Casd1 PE=2 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_32" accession="sp|Q96PB1|CASD1_HUMAN_rev CAS1 domain-containing protein 1 OS=Homo sapiens GN=CASD1 PE=2 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_33" accession="sp|Q9HGN1|GCN2_SCHPO_rev Serine/threonine-protein kinase gcn2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=gcn2 PE=2 SV=2" score="0" sequence="" >
+			</ProteinHit>
+			<ProteinHit id="PH_34" accession="sp|Q9XDU6|LUXS_CLOPE S-ribosylhomocysteine lyase OS=Clostridium perfringens (strain 13 / Type A) GN=luxS PE=3 SV=1" score="0" sequence="" >
+			</ProteinHit>
+			<UserParam type="stringList" name="spectra_data" value="[file:///C:/Users/jabighanem/Data/Dev/UTEC07/Bioapps/OpenMS/2.1/tests/testdata/mzXML/PrsA_non-lipidated_trypsin_994.mzXML]"/>
+		</ProteinIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="352.695617675781" RT="613.228" >
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_24" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_34" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_23" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EIISDK" charge="2" aa_before="M" aa_after="A" start="1" end="6" protein_refs="PH_16" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELISDK" charge="2" aa_before="K" aa_after="G" start="231" end="236" protein_refs="PH_33" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EIISDK" charge="2" aa_before="R" aa_after="D" start="111" end="116" protein_refs="PH_18" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EILSDK" charge="2" aa_before="R" aa_after="S" start="189" end="194" protein_refs="PH_29" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="E" start="282" end="287" protein_refs="PH_19" >
+				<UserParam type="float" name="E-Value" value="2.9"/>
+				<UserParam type="float" name="nextscore" value="17.8"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="8.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12.2"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="20.7"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="2"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="352.696075439453" RT="615.932" >
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_24" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_34" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_23" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EIISDK" charge="2" aa_before="M" aa_after="A" start="1" end="6" protein_refs="PH_16" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELISDK" charge="2" aa_before="K" aa_after="G" start="231" end="236" protein_refs="PH_33" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EIISDK" charge="2" aa_before="R" aa_after="D" start="111" end="116" protein_refs="PH_18" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EILSDK" charge="2" aa_before="R" aa_after="S" start="189" end="194" protein_refs="PH_29" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="E" start="282" end="287" protein_refs="PH_19" >
+				<UserParam type="float" name="E-Value" value="0.55"/>
+				<UserParam type="float" name="nextscore" value="21.2"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="0.0024"/>
+				<UserParam type="float" name="b_score" value="7.9"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="12"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.6"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="3"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="459.748565673828" RT="619.263" >
+			<PeptideHit score="1" sequence="KDTLQDAK" charge="2" aa_before="R" aa_after="M" start="309" end="316" protein_refs="PH_27" >
+				<UserParam type="float" name="E-Value" value="3.1"/>
+				<UserParam type="float" name="nextscore" value="16.2"/>
+				<UserParam type="float" name="mass" value="918.4891"/>
+				<UserParam type="float" name="delta" value="0.0008"/>
+				<UserParam type="float" name="b_score" value="10.2"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.6"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="17.7"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="5"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="343.691345214844" RT="630.007" >
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_24" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_34" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_23" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELISDK" charge="2" aa_before="K" aa_after="G" start="231" end="236" protein_refs="PH_33" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)EIISDK" charge="2" aa_before="R" aa_after="D" start="111" end="116" protein_refs="PH_18" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)EILSDK" charge="2" aa_before="R" aa_after="S" start="189" end="194" protein_refs="PH_29" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="(Glu->pyro-Glu)ELLSDK" charge="2" aa_before="K" aa_after="E" start="282" end="287" protein_refs="PH_19" >
+				<UserParam type="float" name="E-Value" value="0.37"/>
+				<UserParam type="float" name="nextscore" value="23.2"/>
+				<UserParam type="float" name="mass" value="686.3719"/>
+				<UserParam type="float" name="delta" value="0.0035"/>
+				<UserParam type="float" name="b_score" value="9"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="11.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="23.2"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="12"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="437.731262207031" RT="639.388" >
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.57"/>
+				<UserParam type="float" name="nextscore" value="29.9"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0036"/>
+				<UserParam type="float" name="b_score" value="11.7"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.3"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="33"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="19"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="352.691375732422" RT="640.376" >
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="I" start="123" end="128" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_24" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_34" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="G" start="45" end="50" protein_refs="PH_23" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EIISDK" charge="2" aa_before="M" aa_after="A" start="1" end="6" protein_refs="PH_16" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELISDK" charge="2" aa_before="K" aa_after="G" start="231" end="236" protein_refs="PH_33" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EIISDK" charge="2" aa_before="R" aa_after="D" start="111" end="116" protein_refs="PH_18" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="EILSDK" charge="2" aa_before="R" aa_after="S" start="189" end="194" protein_refs="PH_29" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ELLSDK" charge="2" aa_before="K" aa_after="E" start="282" end="287" protein_refs="PH_19" >
+				<UserParam type="float" name="E-Value" value="0.62"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="704.3825"/>
+				<UserParam type="float" name="delta" value="-0.007"/>
+				<UserParam type="float" name="b_score" value="7.4"/>
+				<UserParam type="int" name="b_ions" value="1"/>
+				<UserParam type="float" name="y_score" value="11.9"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="23.5"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="20"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="437.730865478516" RT="642.716" >
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="IDEQIEK" charge="2" aa_before="K" aa_after="M" start="80" end="86" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.5"/>
+				<UserParam type="float" name="nextscore" value="29.7"/>
+				<UserParam type="float" name="mass" value="874.4516"/>
+				<UserParam type="float" name="delta" value="0.0028"/>
+				<UserParam type="float" name="b_score" value="12"/>
+				<UserParam type="int" name="b_ions" value="5"/>
+				<UserParam type="float" name="y_score" value="12.4"/>
+				<UserParam type="int" name="y_ions" value="5"/>
+				<UserParam type="float" name="XTandem_score" value="30"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="22"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.243896484375" RT="656.788" >
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTIISSK" charge="2" aa_before="K" aa_after="N" start="242" end="249" protein_refs="PH_10" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="28.3"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="29"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.244842529297" RT="660.49" >
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00556953902021773" sequence="ENTIISSK" charge="2" aa_before="K" aa_after="N" start="242" end="249" protein_refs="PH_10" >
+				<UserParam type="float" name="E-Value" value="0.0099"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0042"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.1"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="32"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="437.238189697266" RT="672.227" >
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="E" start="672" end="678" protein_refs="PH_30" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="E" start="672" end="678" protein_refs="PH_25" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="E" start="672" end="678" protein_refs="PH_20" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="E" start="672" end="678" protein_refs="PH_26" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="E" start="672" end="678" protein_refs="PH_14" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="E" start="672" end="678" protein_refs="PH_15" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="NIEQIEK" charge="2" aa_before="K" aa_after="I" start="61" end="67" protein_refs="PH_17" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="NLEQLEK" charge="2" aa_before="K" aa_after="V" start="151" end="157" protein_refs="PH_22" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="QVEQLEK" charge="2" aa_before="K" aa_after="Q" start="136" end="142" protein_refs="PH_21" >
+				<UserParam type="float" name="E-Value" value="4.2"/>
+				<UserParam type="float" name="nextscore" value="15"/>
+				<UserParam type="float" name="mass" value="873.4676"/>
+				<UserParam type="float" name="delta" value="0.0015"/>
+				<UserParam type="float" name="b_score" value="0"/>
+				<UserParam type="int" name="b_ions" value="0"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="4"/>
+				<UserParam type="float" name="XTandem_score" value="16"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="39"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.246795654297" RT="676.924" >
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_2" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_1" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_7" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_8" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_9" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_11" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_0" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_4" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_5" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_13" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_12" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_3" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTLISSK" charge="2" aa_before="K" aa_after="A" start="29" end="36" protein_refs="PH_6" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<PeptideHit score="0.00985015661549393" sequence="ENTIISSK" charge="2" aa_before="K" aa_after="N" start="242" end="249" protein_refs="PH_10" >
+				<UserParam type="float" name="E-Value" value="0.013"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4782"/>
+				<UserParam type="float" name="delta" value="0.0081"/>
+				<UserParam type="float" name="b_score" value="7.7"/>
+				<UserParam type="int" name="b_ions" value="4"/>
+				<UserParam type="float" name="y_score" value="11.2"/>
+				<UserParam type="int" name="y_ions" value="8"/>
+				<UserParam type="float" name="XTandem_score" value="35.3"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="42"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.237701416016" RT="679.267" >
+			<PeptideHit score="1" sequence="ENTIMKR" charge="2" aa_before="K" aa_after="N" start="570" end="576" protein_refs="PH_32" >
+				<UserParam type="float" name="E-Value" value="0.33"/>
+				<UserParam type="float" name="nextscore" value="25.1"/>
+				<UserParam type="float" name="mass" value="891.4717"/>
+				<UserParam type="float" name="delta" value="-0.0035"/>
+				<UserParam type="float" name="b_score" value="7.6"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="10"/>
+				<UserParam type="int" name="y_ions" value="7"/>
+				<UserParam type="float" name="XTandem_score" value="28.3"/>
+			</PeptideHit>
+			<PeptideHit score="1" sequence="ENTIMKR" charge="2" aa_before="K" aa_after="N" start="570" end="576" protein_refs="PH_31" >
+				<UserParam type="float" name="E-Value" value="0.33"/>
+				<UserParam type="float" name="nextscore" value="25.1"/>
+				<UserParam type="float" name="mass" value="891.4717"/>
+				<UserParam type="float" name="delta" value="-0.0035"/>
+				<UserParam type="float" name="b_score" value="7.6"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="10"/>
+				<UserParam type="int" name="y_ions" value="7"/>
+				<UserParam type="float" name="XTandem_score" value="28.3"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="44"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.235015869141" RT="681.618" >
+			<PeptideHit score="1" sequence="KLCPESSK" charge="2" aa_before="R" aa_after="T" start="638" end="645" protein_refs="PH_28" >
+				<UserParam type="float" name="E-Value" value="1.2"/>
+				<UserParam type="float" name="nextscore" value="24.9"/>
+				<UserParam type="float" name="mass" value="891.4604"/>
+				<UserParam type="float" name="delta" value="0.0023"/>
+				<UserParam type="float" name="b_score" value="6"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="25.1"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="45"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.234832763672" RT="683.966" >
+			<PeptideHit score="1" sequence="KLCPESSK" charge="2" aa_before="R" aa_after="T" start="638" end="645" protein_refs="PH_28" >
+				<UserParam type="float" name="E-Value" value="1.2"/>
+				<UserParam type="float" name="nextscore" value="21"/>
+				<UserParam type="float" name="mass" value="891.4604"/>
+				<UserParam type="float" name="delta" value="0.002"/>
+				<UserParam type="float" name="b_score" value="5.8"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="10.4"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="25.1"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="46"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.23486328125" RT="686.657" >
+			<PeptideHit score="1" sequence="KLCPESSK" charge="2" aa_before="R" aa_after="T" start="638" end="645" protein_refs="PH_28" >
+				<UserParam type="float" name="E-Value" value="3.6"/>
+				<UserParam type="float" name="nextscore" value="23"/>
+				<UserParam type="float" name="mass" value="891.4604"/>
+				<UserParam type="float" name="delta" value="0.002"/>
+				<UserParam type="float" name="b_score" value="5.7"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="25.2"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="48"/>
+		</PeptideIdentification>
+		<PeptideIdentification score_type="Posterior Error Probability" higher_score_better="false" significance_threshold="0" MZ="446.232635498047" RT="687.999" >
+			<PeptideHit score="1" sequence="KLCPESSK" charge="2" aa_before="R" aa_after="T" start="638" end="645" protein_refs="PH_28" >
+				<UserParam type="float" name="E-Value" value="2.4"/>
+				<UserParam type="float" name="nextscore" value="22.3"/>
+				<UserParam type="float" name="mass" value="891.4604"/>
+				<UserParam type="float" name="delta" value="-0.0024"/>
+				<UserParam type="float" name="b_score" value="6.2"/>
+				<UserParam type="int" name="b_ions" value="3"/>
+				<UserParam type="float" name="y_score" value="10.5"/>
+				<UserParam type="int" name="y_ions" value="6"/>
+				<UserParam type="float" name="XTandem_score" value="25.2"/>
+			</PeptideHit>
+			<UserParam type="int" name="spectrum_id" value="49"/>
+		</PeptideIdentification>
+	</IdentificationRun>
+</IdXML>
