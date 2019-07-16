@@ -3,5 +3,14 @@
     "description"    : "Biotracs application (wrapper of OpenMS software) for mass-spectrometry data processing",
 	"dependencies"	: [
 		"biotracs-m-spectra"
-		]
+		],
+    "variables":{
+        "OpenMSBinPath": "C:/Program Files/OpenMS-2.3.0/bin/",
+        "XtandemExecPath": "C:/Program Files (x86)/Xtandem/tandem-win-15-12-15-2/bin/tandem.exe",
+        "MascotServerHostName": "10.69.20.18",
+        "MascotServerPort": 80,
+        "MascotServerPath": "/mascot",
+        "MascotUseProxy": false,
+        "MascotLogin": false
+    }
 }
