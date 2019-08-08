@@ -65,17 +65,17 @@ classdef ProteinQuantifier < biotracs.openms.model.BaseProcess
             outputFilePath = inputDataFile.getName();
             
             outputProteinDataFilePath = fullfile([this.config.getParamValue('WorkingDirectory'), ...
-                '/', outputFilePath,  'ProteinAbundance.', this.config.getParamValue('OutputFileExtension')]);
+                '/', outputFilePath,  'ProteinAbundance.', this.config.getParamValue('OutputFileExtension')])
             outputPeptideDataFilePaths = fullfile([this.config.getParamValue('WorkingDirectory'), ...
-                '/', outputFilePath,  'PeptideAbundance.', this.config.getParamValue('OutputFileExtension')]);
-            outputDataFilePaths = {outputProteinDataFilePath , outputPeptideDataFilePaths};
+                '/', outputFilePath,  'PeptideAbundance.', this.config.getParamValue('OutputFileExtension')])
+            outputDataFilePaths = {outputProteinDataFilePath , outputPeptideDataFilePaths}
 
             this.config.updateParamValue('OutputFilePath', outputProteinDataFilePath);
             this.config.updateParamValue('PeptideOut', outputPeptideDataFilePaths);
         end
         
          function [ n ] = doComputeNbCmdToPrepare( this )
-            dataFileSet = this.getInputPortData('FeatureFileSet');
+            dataFileSet = this.getInputPortData('GroupProteinsFileSet');
             n = dataFileSet.getLength();
         end
 
@@ -83,6 +83,7 @@ classdef ProteinQuantifier < biotracs.openms.model.BaseProcess
             proteinsResults = this.getOutputPortData('ProteinAbundanceFileSet');
             peptidesResults = this.getOutputPortData('PeptideAbundanceFileSet');
             
+           outputDataFilePaths'
 			%store main log file name
             mainLogFileName = this.logger.getLogFileName();
             this.logger.closeLog(true); %silent = true
@@ -128,7 +129,7 @@ classdef ProteinQuantifier < biotracs.openms.model.BaseProcess
             for i=1:nbOut
                 % -- prepare file paths
                 [  outputDataFilePaths  ] = this.doPrepareInputAndOutputFilePaths( i );
-
+outputDataFilePaths
                 % -- config file export
                 if this.config.getParamValue('UseShellConfigFile')
                     this.doUpdateConfigFilePath();
@@ -138,6 +139,7 @@ classdef ProteinQuantifier < biotracs.openms.model.BaseProcess
                 % -- exec
                 [ listOfCmd{i} ] = this.doBuildCommand();
             end
+            outputDataFilePaths
             %nbOut = length(listOfCmd);
         end
 
