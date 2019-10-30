@@ -64,7 +64,7 @@ classdef ProteoMgfWorkflow <biotracs.core.mvc.model.Workflow
         end
         
         function [ peptideIdentificationWorkflow ] = doPeptideIdentificationWorkflow(this)
-            peptideIdentificationWorkflow = biotracs.openms.model.PeptideIdentificationWorkflow();
+            peptideIdentificationWorkflow = biotracs.openms.model.PeptideIdentificationWorkflowNew();
             this.addNode(peptideIdentificationWorkflow, 'PeptideIdentification');
             peptideIdentificationWorkflow.createInputPortInterface( 'XTandemAdapter', 'DataFileSet' );
             peptideIdentificationWorkflow.createInputPortInterface( 'MascotAdapterOnline', 'DataFileSet' );

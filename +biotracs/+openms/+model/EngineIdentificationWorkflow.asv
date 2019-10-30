@@ -39,22 +39,18 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
                 xtandemId = this.getNode('XtandemIdentification');
                 mergeId =  this.getNode('MergeIdentification');
                 
-%                 mux = this.getNode('MascotXtandemMux');
-                
+%                  mux = this.getNode('MascotXtandemMux');
                 xtandemId.setIsDeactivated( true );
 %                 mux.setIsPhantom( true ); 
-                mergeId.getInputPort('XTandemDataFileSet').setIsRequired(false);
-                
 %                 mergeId.setIsPhantom( true );
              elseif contains(useXtandem, 'true') && contains(useMascot, 'false')
                  disp('Using Xtandem engine for peptides identification')
                  mascotId = this.getNode('MascotIdentification');
 %                  mux = this.getNode('MascotXtandemMux');
-                 mergeId =  this.getNode('MergeIdentification');
-                 mascotId.setIsDeactivated( true );
+%                  mergeId =  this.getNode('MergeIdentification');
+%                  mascotId.setIsDeactivated( true );
 %                  mux.setIsPhantom( true ); 
 %                  mergeId.setIsPhantom( true );
-                mergeId.getInputPort('MascotDataFileSet').setIsRequired(false);
              end
             
 %             mascotId = this.getNode('MascotIdentification');
@@ -83,7 +79,7 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
             this.doMascotIdentificationWorkflow();
             
             this.doXtandemIdentificationWorkflow();
-%             this.doMascotXtandemMux();
+            this.doMascotXtandemMux();
             this.doIdMerge();
             this.doConnectWorkflows();
         end
@@ -114,27 +110,25 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
             xtandemIdWorkflow.createOutputPortInterface( 'IDPosteriorErrorProbabilityXtandem', 'DataFileSet' );
          end
          
-%          function [ mascotXtandemMux ] = doMascotXtandemMux(this)
-%              mascotXtandemMux = biotracs.core.adapter.model.Mux();
-%              mascotXtandemMux.getInput()...
-%                  .resize(2)...
-%                  .setIsResizable(false);
-%              this.addNode( mascotXtandemMux, 'MascotXtandemMux' );
-%          end
+         function [ mascotXtandemMux ] = doMascotXtandemMux(this)
+             mascotXtandemMux = biotracs.core.adapter.model.Mux();
+             mascotXtandemMux.getInput()...
+                 .resize(2)...
+                 .setIsResizable(false);
+             this.addNode( mascotXtandemMux, 'MascotXtandemMux' );
+         end
          
          function [ mergeIdWorkflow ] = doIdMerge( this )
            mergeIdWorkflow = biotracs.openms.model.MergeIdentificationWorkflow();
             this.addNode(mergeIdWorkflow, 'MergeIdentification');
-%             mergeIdWorkflow.createInputPortInterface( 'IDMerger', 'DataFileSet' );
-            mergeIdWorkflow.createInputPortInterface( 'MascotXtandemMux', 'XTandemDataFileSet' );
-            mergeIdWorkflow.createInputPortInterface( 'MascotXtandemMux', 'MascotDataFileSet' );
+            mergeIdWorkflow.createInputPortInterface( 'IDMerger', 'DataFileSet' );
             mergeIdWorkflow.createOutputPortInterface( 'ConsensusID', 'DataFileSet' );
          end
        
         function this = doConnectWorkflows(this)
             mascotIdWorkflow = this.getNode('MascotIdentification');
             xtandemIdWorkflow  = this.getNode('XtandemIdentification');
-%             mascotXtandemMux = this.getNode('MascotXtandemMux');
+            mascotXtandemMux = this.getNode('MascotXtandemMux');
             mergeIdWorkflow = this.getNode('MergeIdentification');
 
             mzFileImporter = this.getNode('MzFileImporter');
@@ -142,8 +136,8 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
 
             
             
-%             mascotId = this.getNode('MascotIdentification');
-%             xtandemId = this.getNode('XtandemIdentification');
+            mascotId = this.getNode('MascotIdentification');
+            xtandemId = this.getNode('XtandemIdentification');
             
 %             if  mascotId.isPhantom()
 %                 disp('coucou mascot is Phantom')
@@ -164,11 +158,10 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
                 mzFileImporter.getOutputPort('DataFileSet').connectTo( xtandemIdWorkflow.getInputPort('XTandemAdapter:DataFileSet') );
                 fastaFileImporter.getOutputPort('DataFileSet').connectTo( xtandemIdWorkflow.getInputPort('FastaImporterDemux:ResourceSet') );
                 mzFileImporter.getOutputPort('DataFileSet').connectTo( mascotIdWorkflow.getInputPort('MascotAdapterOnline:DataFileSet') );
+                mascotIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityMascotAdapterOnline:DataFileSet').connectTo( mascotXtandemMux.getInputPort('Resource#1') );
                 
-                mascotIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityMascotAdapterOnline:DataFileSet').connectTo( mergeIdWorkflow.getInputPort('XTandemDataFileSet') );
-                xtandemIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityXtandem:DataFileSet').connectTo( mergeIdWorkflow.getInputPort('MascotDataFileSet') );
-                
-                %mascotXtandemMux.getOutputPort('ResourceSet').connectTo(mergeIdWorkflow.getInputPort('IDMerger:DataFileSet') );
+                xtandemIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityXtandem:DataFileSet').connectTo( mascotXtandemMux.getInputPort('Resource#2') );
+                mascotXtandemMux.getOutputPort('ResourceSet').connectTo(mergeIdWorkflow.getInputPort('IDMerger:DataFileSet') );
 %             end
         end
         
