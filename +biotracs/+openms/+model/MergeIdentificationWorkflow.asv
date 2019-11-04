@@ -24,10 +24,10 @@ classdef MergeIdentificationWorkflow < biotracs.core.mvc.model.Workflow
         function this = doMergeIdentificationWorkflow( this )
             %Add FileImporter 'mzXML'
             mzFileImporterXT = biotracs.core.adapter.model.FileImporter();
-            this.addNode( mzFileImporterXT, 'MzFileImporterXT' );
+            this.addNode( mzFileImporter, 'MzFileImporterXT' );
 
             mzFileImporterMascot = biotracs.core.adapter.model.FileImporter();
-            this.addNode( mzFileImporterMascot, 'MzFileImporterMascot' );
+            this.addNode( mzFileImporter, 'MzFileImporterMascot' );
             
             %Add Demux
             mascotXtandemMux = biotracs.core.adapter.model.Mux();
@@ -35,14 +35,9 @@ classdef MergeIdentificationWorkflow < biotracs.core.mvc.model.Workflow
                 .resize(2)...
                 .setIsResizable(false);
             this.addNode( mascotXtandemMux, 'MascotXtandemMux' );
-            
-             mascotXtandemMux.getInput()
-             
             mascotXtandemMux.getInput().setPortNameByIndex(1, 'XTandemDataFileSet');
             mascotXtandemMux.getInput().setPortNameByIndex(2, 'MascotDataFileSet');
             
-             mascotXtandemMux.getInput()
-             
             %Add IdMerger
             idMerger = biotracs.openms.model.IDMerger();
             this.addNode( idMerger, 'IDMerger' );
@@ -58,11 +53,8 @@ classdef MergeIdentificationWorkflow < biotracs.core.mvc.model.Workflow
             idMerger.getOutputPort('DataFileSet').connectTo(consensusId.getInputPort('DataFileSet'));
         end
         
-        function doBeforeRun( this, varargin )
-            hasOnlyOneInputPortData = ~(this.getInputPort('XTandemDataFileSet').isRequired() && ...
-                    this.getInputPort('MascotDataFileSet').isRequired());
-                
-            this.setIsPhantom(hasOnlyOneInputPortData);
+        function doRun( this )
+            if this.getInputPort('')
         end
         
     end
