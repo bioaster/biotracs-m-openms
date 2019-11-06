@@ -68,7 +68,6 @@ classdef PeptideIdentificationWorkflowNew <biotracs.core.mvc.model.Workflow
         function this = doConnectWorkflows(this)
             engineIdWorkflow = this.getNode('EngineIdentification');
             peptideIndexFiltrationWorkflow = this.getNode('PeptideIndexFiltration');
-            
             mzFileImporter = this.getNode('MzFileImporter');
             fastaFileImporter = this.getNode('FastaFileImporter');
             
@@ -78,7 +77,6 @@ classdef PeptideIdentificationWorkflowNew <biotracs.core.mvc.model.Workflow
             fastaFileImporter.getOutputPort('DataFileSet').connectTo( engineIdWorkflow.getInputPort('XtandemIdentification:FastaImporterDemux:ResourceSet') );
             engineIdWorkflow.getOutputPort('MergeIdentification:ConsensusID:DataFileSet').connectTo(peptideIndexFiltrationWorkflow.getInputPort('PeptideIndexer:DataFileSet') );
             fastaFileImporter.getOutputPort('DataFileSet').connectTo( peptideIndexFiltrationWorkflow.getInputPort('FastaImporterDemux:ResourceSet') );
-            
         end
     end
     
