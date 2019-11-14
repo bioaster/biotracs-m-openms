@@ -43,7 +43,7 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
                 
                 xtandemId.setIsDeactivated( true );
 %                 mux.setIsPhantom( true ); 
-                mergeId.getInputPort('XTandemDataFileSet').setIsRequired(false);
+                mergeId.getInputPort('MascotXtandemMux:XTandemDataFileSet').setIsRequired(false);
                 
 %                 mergeId.setIsPhantom( true );
              elseif contains(useXtandem, 'true') && contains(useMascot, 'false')
@@ -54,7 +54,7 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
                  mascotId.setIsDeactivated( true );
 %                  mux.setIsPhantom( true ); 
 %                  mergeId.setIsPhantom( true );
-                mergeId.getInputPort('MascotDataFileSet').setIsRequired(false);
+                mergeId.getInputPort('MascotXtandemMux:MascotDataFileSet').setIsRequired(false);
              end
             
 %             mascotId = this.getNode('MascotIdentification');
@@ -165,8 +165,8 @@ classdef EngineIdentificationWorkflow < biotracs.core.mvc.model.Workflow
                 fastaFileImporter.getOutputPort('DataFileSet').connectTo( xtandemIdWorkflow.getInputPort('FastaImporterDemux:ResourceSet') );
                 mzFileImporter.getOutputPort('DataFileSet').connectTo( mascotIdWorkflow.getInputPort('MascotAdapterOnline:DataFileSet') );
                 
-                mascotIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityMascotAdapterOnline:DataFileSet').connectTo( mergeIdWorkflow.getInputPort('XTandemDataFileSet') );
-                xtandemIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityXtandem:DataFileSet').connectTo( mergeIdWorkflow.getInputPort('MascotDataFileSet') );
+                mascotIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityMascotAdapterOnline:DataFileSet').connectTo( mergeIdWorkflow.getInputPort('MascotXtandemMux:XTandemDataFileSet') );
+                xtandemIdWorkflow.getOutputPort('IDPosteriorErrorProbabilityXtandem:DataFileSet').connectTo( mergeIdWorkflow.getInputPort('MascotXtandemMux:MascotDataFileSet') );
                 
                 %mascotXtandemMux.getOutputPort('ResourceSet').connectTo(mergeIdWorkflow.getInputPort('IDMerger:DataFileSet') );
 %             end

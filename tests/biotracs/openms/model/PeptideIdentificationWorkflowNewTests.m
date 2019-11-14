@@ -11,7 +11,7 @@ classdef PeptideIdentificationWorkflowNewTests < matlab.unittest.TestCase
     methods (Test)
         
         function testPeptideIdentificationWithLocalFiles(testCase)
-%             return;
+            return;
             if ~exist(testCase.fastaFilePath, 'file')
                 fprintf('Cannot run %s: please, provide and valid fasta file path for testing\n', class(testCase));
             end
@@ -64,7 +64,7 @@ classdef PeptideIdentificationWorkflowNewTests < matlab.unittest.TestCase
           
          end
           function testPeptideIdXTandemFalseWithLocalFiles(testCase)
-            return;
+%             return;
              if ~exist(testCase.fastaFilePath, 'file')
                 fprintf('Cannot run %s: please, provide and valid fasta file path for testing\n', class(testCase));
             end
