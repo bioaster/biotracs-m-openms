@@ -16,12 +16,14 @@ classdef PeptideIndexer < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = PeptideIndexer()
+            %#function biotracs.openms.model.PeptideIndexerConfig biotracs.data.model.DataFileSet biotracs.data.model.DataFile
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.PeptideIndexerConfig';
             %this.outputFileExtension = 'idXML';
             this.setDescription('Refreshes the protein references for all peptide hits.');
-        
-         this.setInputSpecs({...
+            
+            this.setInputSpecs({...
                 struct(...
                 'name', 'DataFileSet',...
                 'class', 'biotracs.data.model.DataFileSet' ...
@@ -32,7 +34,7 @@ classdef PeptideIndexer < biotracs.openms.model.BaseProcess
                 )...
                 });
         end
-
+        
     end
     
     % -------------------------------------------------------
@@ -40,17 +42,17 @@ classdef PeptideIndexer < biotracs.openms.model.BaseProcess
     % -------------------------------------------------------
     
     methods(Access = protected)
-        function [ outputDataFilePath ] = doPrepareInputAndOutputFilePaths( this, iIndex )               
+        function [ outputDataFilePath ] = doPrepareInputAndOutputFilePaths( this, iIndex )
             dataFileSet = this.getInputPortData('DataFileSet');
             databaseFile = this.getInputPortData('DatabaseFile');
-
+            
             %format feature file path
             featureDataFile = dataFileSet.getAt(iIndex);
             this.config.updateParamValue('InputFilePath', featureDataFile.getPath());
             
             %format Fasta file path
             this.config.updateParamValue('FastaFilePath', databaseFile.getPath());
-
+            
             %fomat output file path
             outputDataFilePath = fullfile(...
                 [this.config.getParamValue('WorkingDirectory'), '/', featureDataFile.getName(),  ...
@@ -61,5 +63,5 @@ classdef PeptideIndexer < biotracs.openms.model.BaseProcess
         end
         
     end
-
+    
 end

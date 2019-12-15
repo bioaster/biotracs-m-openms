@@ -55,9 +55,9 @@ classdef MergeIdentificationWorkflow < biotracs.core.mvc.model.Workflow
         end
         
         function doBeforeRun( this, varargin )
-            hasOnlyOneInputPortData = ~(this.getInputPort('MascotXtandemMux:XTandemDataFileSet').isRequired() && ...
-                    this.getInputPort('MascotXtandemMux:MascotDataFileSet').isRequired());
-                
+            hasOnlyOneInputPortData = ...
+                ~this.getInputPort('MascotXtandemMux:XTandemDataFileSet').isRequired || ...
+                ~this.getInputPort('MascotXtandemMux:MascotDataFileSet').isRequired;
             this.setIsPhantom(hasOnlyOneInputPortData);
         end
         

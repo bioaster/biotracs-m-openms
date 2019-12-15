@@ -16,6 +16,8 @@ classdef IDFilter < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = IDFilter()
+            %#function biotracs.openms.model.IDFilterConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.IDFilterConfig';
             %this.outputFileExtension = 'idXML';

@@ -16,6 +16,8 @@ classdef FeatureFinderCentroided < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = FeatureFinderCentroided()
+            %#function biotracs.openms.model.FeatureFinderCentroidedConfig biotracs.data.model.DataFileSet
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.FeatureFinderCentroidedConfig';
             %this.outputFileExtension = 'featureXML';

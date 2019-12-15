@@ -15,10 +15,11 @@ classdef XtandemIdentificationWorkflow < biotracs.core.mvc.model.Workflow
     methods
         % Constructor
         function this = XtandemIdentificationWorkflow( )
+            %#function biotracs.openms.model.XtandemIdentificationWorkflowConfig
+            
             this@biotracs.core.mvc.model.Workflow();
             this.configType = 'biotracs.openms.model.XtandemIdentificationWorkflowConfig';
-                this.doXtandemIdentificationWorkflow();
-
+            this.doXtandemIdentificationWorkflow();
         end
     end
     

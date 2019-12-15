@@ -16,6 +16,8 @@ classdef AccurateMassSearch < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = AccurateMassSearch()
+            %#function biotracs.openms.model.AccurateMassSearchConfig biotracs.data.model.DataFileSet biotracs.data.model.DataFile
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.AccurateMassSearchConfig';
             %this.outputFileExtension = 'csv';

@@ -16,6 +16,8 @@ classdef FalseDiscoveryRate < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = FalseDiscoveryRate()
+            %#function biotracs.openms.model.FalseDiscoveryRateConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.FalseDiscoveryRateConfig';
             %this.outputFileExtension = 'idXML';

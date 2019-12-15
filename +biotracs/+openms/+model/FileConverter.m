@@ -16,6 +16,8 @@ classdef FileConverter < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = FileConverter()
+            %#function biotracs.openms.model.FileConverterConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.FileConverterConfig';
             %this.outputFileExtension = 'mzml';

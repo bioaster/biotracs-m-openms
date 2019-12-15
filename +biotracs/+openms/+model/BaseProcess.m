@@ -16,6 +16,8 @@ classdef (Abstract)BaseProcess < biotracs.core.shell.model.Shell
         
         % Constructor
         function this = BaseProcess()
+            %#function biotracs.openms.model.BaseProcessConfig biotracs.data.model.DataFileSet
+            
             this@biotracs.core.shell.model.Shell();
             this.configType = 'biotracs.openms.model.BaseProcessConfig';
             

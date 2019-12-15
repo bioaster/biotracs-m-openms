@@ -16,6 +16,8 @@ classdef FeatureLinkerUnlabeledQT < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = FeatureLinkerUnlabeledQT()
+            %#function biotracs.openms.model.FeatureLinkerUnlabeledQTConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.FeatureLinkerUnlabeledQTConfig';
             %this.outputFileExtension = 'consensusXML';

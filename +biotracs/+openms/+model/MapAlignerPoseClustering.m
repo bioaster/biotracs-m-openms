@@ -18,6 +18,8 @@ classdef MapAlignerPoseClustering < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = MapAlignerPoseClustering()
+            %#function biotracs.openms.model.MapAlignerPoseClusteringConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.MapAlignerPoseClusteringConfig';
             %this.outputFileExtension = 'featureXML';

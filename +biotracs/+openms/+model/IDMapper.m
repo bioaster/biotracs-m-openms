@@ -16,6 +16,8 @@ classdef IDMapper < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = IDMapper()
+            %#function biotracs.openms.model.IDMapperConfig biotracs.data.model.DataFileSet
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.IDMapperConfig';
             %this.outputFileExtension = 'featureXML';

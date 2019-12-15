@@ -16,6 +16,8 @@ classdef FeatureFinderMetabo < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = FeatureFinderMetabo()
+            %#function biotracs.openms.model.FeatureFinderMetaboConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.FeatureFinderMetaboConfig';
             %this.outputFileExtension = 'featureXML';

@@ -16,6 +16,8 @@ classdef IDMerger < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = IDMerger()
+            %#function biotracs.openms.model.IDMergerConfig biotracs.core.mvc.model.ResourceSet
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.IDMergerConfig';
             %this.outputFileExtension = 'idXML';

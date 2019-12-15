@@ -16,6 +16,8 @@ classdef ConsensusID < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = ConsensusID()
+            %#function biotracs.openms.model.ConsensusIDConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.ConsensusIDConfig';
             %this.outputFileExtension = 'idXML';

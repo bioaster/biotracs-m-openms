@@ -16,6 +16,8 @@ classdef ConsensusMapNormalizer < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = ConsensusMapNormalizer()
+            %#function biotracs.openms.model.ConsensusMapNormalizerConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.ConsensusMapNormalizerConfig';
             %this.outputFileExtension = 'consensusXML';

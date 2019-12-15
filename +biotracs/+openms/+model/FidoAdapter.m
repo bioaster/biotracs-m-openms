@@ -16,6 +16,8 @@ classdef FidoAdapter < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = FidoAdapter()
+            %#function biotracs.openms.model.FidoAdapterConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.FidoAdapterConfig';
             %this.outputFileExtension = 'idXML';

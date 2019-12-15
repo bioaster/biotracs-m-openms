@@ -16,6 +16,8 @@ classdef SeedListGenerator < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = SeedListGenerator()
+            %#function biotracs.openms.model.SeedListGeneratorConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.SeedListGeneratorConfig';
             %this.outputFileExtension = 'idXML';

@@ -16,6 +16,8 @@ classdef ProteinQuantifier < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = ProteinQuantifier()
+            %#function biotracs.openms.model.ProteinQuantifierConfig biotracs.data.model.DataFileSet biotracs.data.model.DataFileSet
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.ProteinQuantifierConfig';
             %this.outputFileExtension = 'csv';

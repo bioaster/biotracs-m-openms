@@ -19,6 +19,8 @@ classdef MapAlignerResult < biotracs.core.mvc.model.ResourceSet
         
         % Constructor
         function this = MapAlignerResult( varargin )
+            %#function biotracs.openms.view.MapAlignerResult
+            
             this@biotracs.core.mvc.model.ResourceSet( varargin{:} );
             this.bindView( biotracs.openms.view.MapAlignerResult() );
         end

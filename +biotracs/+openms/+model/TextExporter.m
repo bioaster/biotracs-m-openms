@@ -16,6 +16,8 @@ classdef TextExporter < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = TextExporter()
+            %#function biotracs.openms.model.TextExporterConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.TextExporterConfig';
             %this.outputFileExtension = 'csv';

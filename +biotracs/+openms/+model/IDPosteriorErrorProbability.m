@@ -16,6 +16,8 @@ classdef IDPosteriorErrorProbability < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = IDPosteriorErrorProbability()
+            %#function biotracs.openms.model.IDPosteriorErrorProbabilityConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.IDPosteriorErrorProbabilityConfig';
             %this.outputFileExtension = 'idXML';

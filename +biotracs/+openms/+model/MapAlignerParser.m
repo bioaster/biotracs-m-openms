@@ -19,7 +19,10 @@ classdef MapAlignerParser < biotracs.parser.model.TableParser
         
         % Constructor
         function this = MapAlignerParser()
+            %#function biotracs.openms.model.MapAlignerParserConfig biotracs.openms.model.MapAlignerResult
+            
             this@biotracs.parser.model.TableParser();
+            this.configType = 'biotracs.openms.model.MapAlignerParserConfig';
         end
     end
     

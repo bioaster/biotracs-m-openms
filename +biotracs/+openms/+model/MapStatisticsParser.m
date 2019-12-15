@@ -19,7 +19,10 @@ classdef MapStatisticsParser < biotracs.parser.model.TableParser
         
         % Constructor
         function this = MapStatisticsParser()
+            %#function biotracs.openms.model.MapStatisticsParserConfig biotracs.openms.model.MapStatisticsResult
+            
             this@biotracs.parser.model.TableParser();
+            this.configType = 'biotracs.openms.model.MapStatisticsParserConfig';
         end
     end
     

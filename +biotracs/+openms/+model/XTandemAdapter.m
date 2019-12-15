@@ -16,6 +16,8 @@ classdef XTandemAdapter < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = XTandemAdapter()
+            %#function biotracs.openms.model.XTandemAdapterConfig biotracs.data.model.DataFileSet biotracs.data.model.DataFile
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.XTandemAdapterConfig';
             %this.outputFileExtension = 'idXML';
@@ -40,13 +42,7 @@ classdef XTandemAdapter < biotracs.openms.model.BaseProcess
     % -------------------------------------------------------
     
     methods(Access = protected)
-        
-%         function doBeforeRun( this )
-%             if ~this.getConfig.getParamValue('UseXTandem')
-%                  this.setIsPhantom( true );
-%             end
-%         end
-        
+
         function [ outputDataFilePath ] = doPrepareInputAndOutputFilePaths( this, iIndex )               
             dataFileSet = this.getInputPortData('DataFileSet');
             databaseFile = this.getInputPortData('DatabaseFile');

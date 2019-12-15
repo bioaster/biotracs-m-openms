@@ -16,6 +16,8 @@ classdef MascotAdapterOnline < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = MascotAdapterOnline()
+            %#function biotracs.openms.model.MascotAdapterOnlineConfig
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.MascotAdapterOnlineConfig';
             %this.outputFileExtension = 'idXML';

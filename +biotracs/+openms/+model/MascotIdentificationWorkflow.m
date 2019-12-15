@@ -15,14 +15,11 @@ classdef MascotIdentificationWorkflow < biotracs.core.mvc.model.Workflow
     methods
         % Constructor
         function this = MascotIdentificationWorkflow( )
+            %#function biotracs.openms.model.MascotIdentificationWorkflowConfig
+            
             this@biotracs.core.mvc.model.Workflow();
             this.configType = 'biotracs.openms.model.MascotIdentificationWorkflowConfig';
-%             useMascot = this.config.getParamValue('UseMascot');
-%             if useMascot
-                this.doMascotIdentificationWorkflow();
-%             else
-%                 this.setIsPhantom( true );
-%             end
+            this.doMascotIdentificationWorkflow();
         end
     end
     

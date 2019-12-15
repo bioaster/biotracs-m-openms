@@ -4,7 +4,7 @@
 %> @link		http://www.bioaster.org
 %> @copyright	Copyright (c) 2014, Bioaster Technology Research Institute (http://www.bioaster.org)
 %> @license		BIOASTER
-%> @date		22017
+%> @date		2017
 
 classdef MapStatistics < biotracs.openms.model.BaseProcess
     
@@ -16,6 +16,8 @@ classdef MapStatistics < biotracs.openms.model.BaseProcess
         
         % Constructor
         function this = MapStatistics()
+            %#function biotracs.openms.model.MapStatisticsConfig biotracs.openms.view.MapStatisticsResult
+            
             this@biotracs.openms.model.BaseProcess();
             this.configType = 'biotracs.openms.model.MapStatisticsConfig';
             %this.outputFileExtension = 'txt';
