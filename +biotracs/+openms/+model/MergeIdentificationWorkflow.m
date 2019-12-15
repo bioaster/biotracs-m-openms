@@ -49,7 +49,6 @@ classdef MergeIdentificationWorkflow < biotracs.core.mvc.model.Workflow
 
             mzFileImporterXT.getOutputPort('DataFileSet').connectTo( mascotXtandemMux.getInputPort('XTandemDataFileSet'));
             mzFileImporterMascot.getOutputPort('DataFileSet').connectTo( mascotXtandemMux.getInputPort('MascotDataFileSet'));
-            
             mascotXtandemMux.getOutputPort('ResourceSet').connectTo( idMerger.getInputPort('DataFileSet'));
             idMerger.getOutputPort('DataFileSet').connectTo(consensusId.getInputPort('DataFileSet'));
         end
