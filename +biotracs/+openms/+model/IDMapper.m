@@ -75,6 +75,32 @@ classdef IDMapper < biotracs.openms.model.BaseProcess
             this.config.updateParamValue('OutputFilePath', outputDataFilePath);
         end
         
+         function [listOfCmd, outputDataFilePaths, nbOut ] = doPrepareCommand (this)
+            nbOut = this.doComputeNbCmdToPrepare();
+            outputDataFilePaths = cell(1,nbOut);
+            listOfCmd = cell(1,nbOut);
+            dataFileSet = this.getInputPortData('FeatureFileSet');
+            for i=1:nbOut
+                if ~isfile(dataFileSet.getAt(i).getPath())
+                    if this.config.getParamValue('SkipWhenInputFileDoesNotExist')
+                        continue;
+                    else
+                        % nothing, an error will be triggered
+                    end
+                end
+                
+                % -- prepare file paths
+                [  outputDataFilePaths{i} ] = this.doPrepareInputAndOutputFilePaths( i );
+                % -- config file export
+                if this.config.getParamValue('UseShellConfigFile')
+                    this.doUpdateConfigFilePath();
+                    this.exportConfig( this.config.getParamValue('ShellConfigFilePath'), 'Mode', 'Shell' );
+                end
+                % -- exec
+                [ listOfCmd{i} ] = this.doBuildCommand();
+            end
+            %nbOut = length(listOfCmd);
+        end
 
     end
     
